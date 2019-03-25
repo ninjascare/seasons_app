@@ -30,7 +30,7 @@ class App extends Component {
     }
     return <Spinner message="Please accept location request" />;
   }
-  
+
   render() {
     return <div className="border red">{this.renderContent()}</div>;
   }
